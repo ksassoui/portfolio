@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAE Réseau - Installation d'un service LAMP</title>
+    <link rel="stylesheet" href="projet-reseau.css">
+</head>
+<body>
+
+<header class="topbar">
+    <a href="index.html" class="back">← Retour au portfolio</a>
+</header>
+
+<main>
+
+<section class="hero-project">
+    <p class="label">SAE Réseau • BUT Informatique</p>
+    <h1>Installation d'un service réseau LAMP</h1>
+    <p>
+        Mise en place d'un environnement serveur sous Linux avec Apache, PHP et MySQL.
+        L'objectif était de comprendre le fonctionnement d'un service web côté serveur
+        et de vérifier la connexion entre une page web et une base de données.
+    </p>
+</section>
+
+<section class="section">
+    <h2>Contexte du projet</h2>
+    <p>
+        Cette SAE portait sur l'installation et la configuration d'un service réseau.
+        Le travail consistait à utiliser une machine virtuelle Linux afin de déployer
+        un serveur web capable d'afficher des données issues d'une base MySQL.
+    </p>
+</section>
+
+<section class="section grid">
+    <div class="card">
+        <h2>Besoin à satisfaire</h2>
+        <p>
+            Le besoin était de créer une infrastructure simple permettant d'héberger une page web,
+            de se connecter à une base de données et d'afficher des informations stockées dans celle-ci.
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>Technologies utilisées</h2>
+        <ul>
+            <li>Linux Ubuntu</li>
+            <li>Apache</li>
+            <li>MySQL</li>
+            <li>PHP</li>
+            <li>VirtualBox</li>
+            <li>Commandes Unix</li>
+        </ul>
+    </div>
+</section>
+
+<section class="section">
+    <h2>Démarche de réalisation</h2>
+
+    <div class="steps">
+        <div class="step">
+            <span>01</span>
+            <div>
+                <h3>Installation de l'environnement</h3>
+                <p>Travail sur une machine virtuelle Linux pour configurer un environnement serveur.</p>
+            </div>
+        </div>
+
+        <div class="step">
+            <span>02</span>
+            <div>
+                <h3>Configuration de la base de données</h3>
+                <p>Création d'une base MySQL, d'une table de test et de plusieurs lignes de données.</p>
+            </div>
+        </div>
+
+        <div class="step">
+            <span>03</span>
+            <div>
+                <h3>Connexion entre PHP et MySQL</h3>
+                <p>Développement d'une page web permettant de tester la connexion et d'afficher les données.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <h2>Résultat obtenu</h2>
+
+    <div class="screens">
+        <figure>
+            <img src="images/mysql-terminal.jpeg" alt="Terminal MySQL affichant les données de test">
+            <figcaption>Vérification de la base MySQL : la table contient plusieurs messages de test.</figcaption>
+        </figure>
+
+        <figure>
+            <img src="images/site-lamp.jpeg" alt="Page web affichant les données depuis MySQL">
+            <figcaption>Page web affichant les données récupérées depuis la base MySQL.</figcaption>
+        </figure>
+    </div>
+</section>
+
+<section class="section grid">
+    <div class="card">
+        <h2>Compétences mobilisées</h2>
+        <ul>
+            <li><strong>Administrer :</strong> installer et configurer un service sous Linux.</li>
+            <li><strong>Développer :</strong> créer une page web connectée à une base de données.</li>
+            <li><strong>Gérer des données :</strong> créer une table, insérer des données et les interroger.</li>
+            <li><strong>Diagnostiquer :</strong> vérifier les erreurs de connexion et tester le fonctionnement.</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>Si c'était à refaire</h2>
+        <p>
+            J'organiserais mieux les fichiers du serveur, j'ajouterais une feuille CSS pour améliorer l'affichage
+            et je documenterais davantage chaque commande utilisée. Je mettrais aussi en place une configuration
+            plus sécurisée pour la connexion à la base de données.
+        </p>
+    </div>
+</section>
+
+<section class="section conclusion">
+    <h2>Ce que ce projet m'a apporté</h2>
+    <p>
+        Cette SAE m'a permis de mieux comprendre le rôle d'un serveur web, d'une base de données
+        et du langage PHP dans une architecture LAMP. Elle m'a aussi aidé à progresser sur Linux,
+        les commandes système et la résolution de problèmes techniques.
+    </p>
+</section>
+
+</main>
+
+<footer>
+    <p>© 2026 - Kelyan Sassoui</p>
+</footer>
+
+</body>
+</html>
