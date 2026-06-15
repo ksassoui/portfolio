@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Kelyan Sassoui</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="hero" id="accueil">
+    <nav class="navbar">
+        <a href="#accueil" class="logo">KS.</a>
+        <ul>
+            <li><a href="#profil">Profil</a></li>
+            <li><a href="#competences">Compétences</a></li>
+            <li><a href="#projets">SAE</a></li>
+            <li><a href="#projet-principal">Projet principal</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero-content">
+        <p class="subtitle">BUT Informatique • Portfolio de compétences</p>
+        <h1>Kelyan Sassoui</h1>
+        <h2>Développement • Bases de données • Algorithmique</h2>
+        <p>
+            Ce portfolio présente les projets réalisés durant ma formation en BUT Informatique.
+            Il met en avant mes compétences en développement logiciel, bases de données,
+            algorithmique, gestion de projet et travail en équipe.
+        </p>
+        <div class="hero-buttons">
+            <a href="#projets" class="btn primary">Voir mes SAE</a>
+            <a href="#projet-principal" class="btn secondary">Projet principal</a>
+            <a href="CV.pdf" class="btn secondary" target="_blank">Voir mon CV</a>
+        </div>
+    </section>
+</header>
+
+<main>
+
+<section class="section" id="profil">
+    <div class="section-title">
+        <p>Présentation</p>
+        <h2>À propos de moi</h2>
+    </div>
+
+    <div class="about-card">
+        <p>
+            Je suis étudiant en BUT Informatique à l'IUT de Montreuil. Je m'intéresse particulièrement
+            au développement logiciel, aux réseaux et à la cybersécurité.
+        </p>
+        <p>
+            À travers mes projets universitaires, j'ai appris à analyser un besoin, concevoir une solution,
+            développer du code, tester mes programmes et présenter mes choix techniques.
+        </p>
+    </div>
+</section>
+
+<section class="section dark" id="competences">
+    <div class="section-title">
+        <p>Compétences</p>
+        <h2>Ce que je sais mobiliser</h2>
+    </div>
+
+    <div class="skills-grid">
+        <div class="skill-card"><span>01</span><h3>Développer</h3><p>Réaliser des applications en Java, Python, HTML et CSS.</p></div>
+        <div class="skill-card"><span>02</span><h3>Gérer des données</h3><p>Concevoir une base de données, écrire des requêtes SQL et exploiter les résultats.</p></div>
+        <div class="skill-card"><span>03</span><h3>Optimiser</h3><p>Utiliser des algorithmes, analyser leur efficacité et structurer une solution.</p></div>
+        <div class="skill-card"><span>04</span><h3>Conduire un projet</h3><p>Organiser les tâches, utiliser Git/GitHub et respecter les consignes d'un projet.</p></div>
+        <div class="skill-card"><span>05</span><h3>Collaborer</h3><p>Travailler en groupe, répartir les tâches et communiquer sur l'avancement.</p></div>
+        <div class="skill-card"><span>06</span><h3>Présenter</h3><p>Expliquer un projet, argumenter mes choix et prendre du recul sur mon travail.</p></div>
+    </div>
+</section>
+
+<section class="section" id="projets">
+    <div class="section-title">
+        <p>SAE</p>
+        <h2>Mes projets réalisés</h2>
+    </div>
+
+    <div class="projects-grid">
+
+        <article class="project-card featured">
+            <div class="project-top"><span class="tag">Projet principal</span><span class="year">BUT 1</span></div>
+            <h3>Jeu de Labyrinthe en Java</h3>
+            <p>Développement d'un jeu de plateau jouable sur terminal en Java. Le projet repose sur un plateau représenté par des tableaux, des règles de jeu, des interactions utilisateur et des tests unitaires JUnit.</p>
+            <div class="techs"><span>Java</span><span>JUnit</span><span>POO</span><span>Terminal</span></div>
+            <a href="#projet-principal">Voir la présentation détaillée →</a>
+            <a href="https://github.com/ksassoui/SAE-Jeu-Labyrinthe" target="_blank">Voir le repository →</a>
+        </article>
+
+        <article class="project-card">
+            <div class="project-top"><span class="tag">Web</span><span class="year">BUT 1</span></div>
+            <h3>SAE Site Web - O'Survie</h3>
+            <p>Création d'un site web statique pour l'association O'Survie, avec recueil des besoins d'une cliente réelle, travail en équipe et présentation en anglais.</p>
+            <div class="techs"><span>HTML</span><span>CSS</span><span>Trello</span><span>Anglais</span></div>
+            <a href="https://github.com/ksassoui/SAE-Site-Web-OSurvie" target="_blank">Voir le repository →</a>
+        </article>
+
+        <article class="project-card">
+            <div class="project-top"><span class="tag">Base de données</span><span class="year">BUT 1</span></div>
+            <h3>SAE Base de données - eSport</h3>
+            <p>Conception d'une base de données relationnelle sur le thème de l'eSport : modélisation, création SQL, insertions et requêtes d'analyse.</p>
+            <div class="techs"><span>SQL</span><span>PostgreSQL</span><span>MLD</span></div>
+            <a href="https://github.com/ksassoui/SAE-BDD-Esport" target="_blank">Voir le repository →</a>
+        </article>
+
+        <article class="project-card">
+            <div class="project-top"><span class="tag">Base de données</span><span class="year">BUT 1</span></div>
+            <h3>SAE Base de données - Streaming</h3>
+            <p>Modélisation d'une plateforme de streaming avec utilisateurs, contenus, catégories, abonnements et historique de visionnage.</p>
+            <div class="techs"><span>SQL</span><span>PostgreSQL</span><span>Modélisation</span></div>
+            <a href="https://github.com/ksassoui/SAE-BDD-Streaming" target="_blank">Voir le repository →</a>
+        </article>
+
+        <article class="project-card">
+            <div class="project-top"><span class="tag">Algorithmique</span><span class="year">BUT 1</span></div>
+            <h3>Comparaison d'algorithmes</h3>
+            <p>Étude de plusieurs algorithmes de tri et de recherche, mesures de performances, comparaison des temps d'exécution et tests JUnit.</p>
+            <div class="techs"><span>Java</span><span>JUnit</span><span>Complexité</span></div>
+            <a href="https://github.com/ksassoui/SAE-Algorithmique" target="_blank">Voir le repository →</a>
+        </article>
+
+        <article class="project-card">
+            <div class="project-top"><span class="tag">Python</span><span class="year">BUT 1</span></div>
+            <h3>Courbes de Bézier - Tilemap</h3>
+            <p>Génération de tuiles de jeu avec des courbes de Bézier en Python. Le projet utilise des points de contrôle, des courbes paramétrées et une génération graphique.</p>
+            <div class="techs"><span>Python</span><span>NumPy</span><span>Matplotlib</span><span>Bézier</span></div>
+            <a href="https://github.com/ksassoui/SAE-Bezier-Tilemap" target="_blank">Voir le repository →</a>
+        </article>
+
+    </div>
+</section>
+
+<section class="section focus-section" id="projet-principal">
+    <div class="section-title">
+        <p>Projet principal</p>
+        <h2>Développement d'un jeu de Labyrinthe en Java</h2>
+    </div>
+
+    <div class="focus-layout">
+        <div class="focus-main">
+            <h3>Besoin à satisfaire</h3>
+            <p>Le but du projet était de développer un jeu de plateau fonctionnant uniquement sur terminal. Le joueur devait pouvoir interagir avec un plateau, effectuer des actions et respecter les règles du jeu définies.</p>
+
+            <h3>Modalités de réalisation</h3>
+            <p>Le projet a été réalisé en binôme. Nous avons utilisé Java pour développer la logique du jeu, des tableaux multidimensionnels pour représenter le plateau et JUnit pour tester certaines méthodes.</p>
+
+            <h3>Résultat obtenu</h3>
+            <p>Le résultat est un jeu jouable depuis le terminal, avec affichage du plateau, gestion des déplacements, règles de jeu et tests unitaires permettant de vérifier plusieurs comportements.</p>
+
+            <h3>Recul critique</h3>
+            <p>Si c'était à refaire, j'améliorerais la structure du code en utilisant davantage la programmation orientée objet, j'ajouterais plus de tests automatisés et je développerais une interface graphique avec JavaFX pour améliorer l'expérience utilisateur.</p>
+        </div>
+
+        <aside class="focus-side">
+            <h3>Compétences mises en avant</h3>
+            <ul>
+                <li>Développer une application simple</li>
+                <li>Utiliser Java et la POO</li>
+                <li>Manipuler des tableaux multidimensionnels</li>
+                <li>Implémenter des règles de jeu</li>
+                <li>Tester avec JUnit</li>
+                <li>Présenter et justifier des choix techniques</li>
+            </ul>
+        </aside>
+    </div>
+</section>
+
+</main>
+
+<footer>
+    <p>© 2026 - Portfolio de Kelyan Sassoui</p>
+</footer>
+
+</body>
+</html>
