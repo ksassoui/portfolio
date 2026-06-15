@@ -185,10 +185,9 @@ Compétences développées :
 
 📧 kelyan.sassoui@gmail.com
 
-🔗 LinkedIn : (mettre ton lien)
+🔗 LinkedIn : www.linkedin.com/in/ksassoui
 
-🌍 Portfolio : (mettre le lien GitHub Pages)
-
+🌍 Portfolio :  https://ksassoui.github.io/ksassoui/
 ---
 
 # ⚡ Centres d'intérêt
